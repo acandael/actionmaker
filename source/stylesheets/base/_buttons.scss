@@ -18,6 +18,15 @@ button {
   vertical-align: middle;
   white-space: nowrap;
 
+  &.team {
+    background-color: $blue;
+    &:hover,
+    &:focus {
+      background-color: darken($blue, 15%);
+      color: #fff;
+    }
+  }
+
   &:hover,
   &:focus {
     background-color: darken($action-color, 15%);

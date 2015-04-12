@@ -1,0 +1,14 @@
+.gallery { 
+ @include outer-container;
+
+ li {
+   @include span-columns(3);
+   @include omega(4n);
+   margin-bottom: em(36);
+   a {
+    &:hover {
+      opacity: .5;
+    }
+   }
+ }
+}

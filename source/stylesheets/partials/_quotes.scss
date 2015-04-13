@@ -1,0 +1,23 @@
+section.quotes {
+  margin-top: em(36);
+  .refboxes {
+    @include outer-container;
+    li {
+      @include span-columns(6);
+      @include omega(2n);
+      margin-bottom: em(24);
+      padding: em(30);
+      background-color: #f5f5f5;
+      border: 1px solid #dbdbdb;
+    }
+  }
+  i {
+    color: lighten($base-font-color, 20);
+    &.fa-quote-left {
+      margin-right: em(16);
+    }
+    &.fa-quote-right {
+      margin-left: em(16);
+    }
+  }
+}

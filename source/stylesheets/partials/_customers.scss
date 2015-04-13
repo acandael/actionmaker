@@ -1,0 +1,17 @@
+section.customers {
+  @include outer-container;
+  padding-top: em(36);
+  p.tagline {
+    text-align: center;
+    font-family: $heading-font-family;
+    font-size: em(24);
+  }
+
+  .logos {
+    margin-top: em(36);
+    li {
+      @include span-columns(3);
+      @include omega(4n);
+    }
+  }
+}

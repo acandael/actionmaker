@@ -14,7 +14,6 @@
   text-align: center;
   font-size: em(24);
   font-family: $heading-font-family;
-  margin-top: em(24);
 }
 
 .hero {
@@ -35,8 +34,16 @@ section.animators {
 }
 
 section.gallery {
-  @include clearfix;
-  margin-top: em(81);
+  header {
+    p.tagline {
+      margin-bottom: em(24);
+      padding-bottom: em(24);
+    }
+
+  }
+  a {
+    color: $base-font-color;
+  }
 }
 
 .hero button {

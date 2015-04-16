@@ -5,7 +5,11 @@ stylesheet: jquery.fullPage
 <div id="fullpage">
   <div class="section hero">
     <div class="banner">
-      <img src="../images/banner2.jpg" />
+      <ul class="bxslider">
+        <li><img src="../images/banner.jpg" /></li>
+        <li><img src="../images/banner2.jpg" /></li>
+        <li><img src="../images/banner3.jpg" /></li>
+      </ul>
       <p class="tagline">ActionMaker maakt van je teambuilding, initiatie<br />of vrijgezellen activiteit een onvergetelijk moment</p>
     </div>
     <div class="cta">
@@ -24,7 +28,7 @@ stylesheet: jquery.fullPage
         <p class="tagline">Maak je keuze uit ons aanbod van activiteiten</p>
       </header>
       <ul>
-        <li><a href="/activiteit.html"><img src="../images/schermen-1.jpg" /></a>Schermen</li>
+        <li><a href="/activiteit.html"><img src="../images/schermen-1.jpg" /></a><a href="/activiteit.html">Schermen</a></li>
         <li><a href="#"><img src="../images/gallery2.jpg" /></a>Boogschieten</li>
         <li><a href="#"><img src="../images/gallery3.jpg" /></a>Kleiduifschieten</li>
           <li><a href="#"><img src="../images/gallery4.jpg" /></a>Sumoworstelen</li>
@@ -105,5 +109,7 @@ en is afgestudeerd in de pedagogische wetenschappen</p>
      autoScrolling: false
      }
    );
+   $('.bxslider').bxSlider({
+   });
 }); 
 </script>

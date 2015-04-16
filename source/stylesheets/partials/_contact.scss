@@ -1,0 +1,51 @@
+article.contact {
+  @include outer-container;
+  section.banner {
+    margin-top: em(24);
+    margin-bottom: em(24);
+  }
+  header {
+    @include span-columns(8);
+    @include shift(2);
+    padding: em(24) 0;
+
+    .action {
+      color: $action-color;
+    }
+  }
+  div.content {
+    @include clearfix;
+    @include span-columns(12);
+
+    margin-top: em(36);
+    margin-bottom: em(36);
+    padding-bottom: em(24);
+
+    section.bodytext {
+      @include span-columns(6 of 12);
+      float: left;
+    }
+
+    aside {
+      @include span-columns(6 of 12);
+      float: right;
+    }
+  }
+  p.tagline {
+    text-align: center;
+  }
+
+  h2 {
+    color: $action-color;
+  }
+
+  i {
+    margin-right: em(16);
+    color: $action-color;
+  }
+
+  a {
+    color: $base-font-color;
+  }
+
+}

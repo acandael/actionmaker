@@ -1,0 +1,41 @@
+article.activity {
+  @include outer-container;
+
+  .banner {
+    margin-top: em(24);
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: em(24);
+    margin-bottom: em(24);
+    font-size: $base-font-size * 2.25;
+  }
+
+  .content {
+    @include clearfix;
+    margin-bottom: em(24);
+  }
+
+  section.bodytext {
+    @include span-columns(6);
+    padding-right: em(16);
+  }
+
+  section.contactform {
+    @include span-columns(6);
+    @include omega();
+    float: left;
+
+    button {
+      float: right;
+      margin-top: em(16);
+    }
+  }
+
+  section.gallery {
+    @include clearfix;
+    padding-top: em(24);
+    margin-bottom: em(36);
+  }
+}

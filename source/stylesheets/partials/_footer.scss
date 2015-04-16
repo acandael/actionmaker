@@ -1,0 +1,33 @@
+footer#pageFooter {
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  padding-left: em(24);
+  padding-top: em(16);
+
+  li {
+    float: left;
+    line-height: 1.5em;
+    margin-left: em(16);
+    color: #ababab;
+  }
+
+  .action {
+    color: $action-color;
+    font-weight: 600;
+  }
+
+  a {
+    color: #ababab;
+  }
+
+  ul.middle {
+    @include span-columns(6);
+    @include shift(2);
+  }
+
+  i {
+    margin-right: em(16);
+  }
+
+}

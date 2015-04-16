@@ -8,12 +8,14 @@ stylesheet: jquery.fullPage
       <img src="../images/banner2.jpg" />
       <p class="tagline">ActionMaker maakt van je teambuilding, initiatie<br />of vrijgezellen activiteit een onvergetelijk moment</p>
     </div>
-    <form action="#activities" method="get">
-      <button class="activiteiten">Onze Activiteiten</button>
-    </form>
-    <form action="#team" method="get">
-      <button class="team">Ons Team</button>
-    </form>
+    <div class="cta">
+      <form action="#activities" method="get">
+        <button class="activiteiten">Onze Activiteiten</button>
+      </form>
+      <form action="#team" method="get">
+        <button class="team">Ons Team</button>
+      </form>
+    </div>
   </div>
 
   <div class="section activities">
@@ -63,25 +65,35 @@ en is afgestudeerd in de pedagogische wetenschappen</p>
       <p class="tagline">Wat zeggen de klanten over ons?</p>
     </header>
       <ul class="logos">
-        <li><%= image_tag "mastercard.png" %></li>
-        <li><%= image_tag "toyota.png" %></li>
-        <li><%= image_tag "mastercard.png" %></li>
-        <li><%= image_tag "toyota.png" %></li>
+        <li><%= image_tag "mastercard-96x80.jpg" %></li>
+        <li><%= image_tag "toyota-106x80.jpg" %></li>
+        <li><%= image_tag "mastercard-96x80.jpg" %></li>
+        <li><%= image_tag "toyota-106x80.jpg" %></li>
       </ul>
     </section>
     <section class="quotes">
       <ul class="refboxes">
         <li><i class="fa fa-quote-left"></i>Hello Frederiek,<br />
-        All our European Communications Team at MasterCard would like to thank you &amp; your amazing team! We had a great time, filled with fun, laughs and hilarious moments! We had a lot of fun and were amazed by what we have achieved in a so short timeframe.<i class="fa fa-quote-right"></i></li>
+        All our European Communications Team at MasterCard would like to thank you &amp; your amazing team! We had a great time, filled with fun, laughs and hilarious moments! <i class="fa fa-quote-right"></i></li>
         <li><i class="fa fa-quote-left"></i>Hello Frederiek,<br />
 
-        All our European Communications Team at MasterCard would like to thank you &amp; your amazing team! We had a great time, filled with fun, laughs and hilarious moments! We had a lot of fun and were amazed by what we have achieved in a so short timeframe.<i class="fa fa-quote-right"></i></li>
+        All our European Communications Team at MasterCard would like to thank you &amp; your amazing team! We had a great time, filled with fun, laughs and hilarious moments!<i class="fa fa-quote-right"></i></li>
         <li><i class="fa fa-quote-left"></i>Hello Frederiek,<br />
-        All our European Communications Team at MasterCard would like to thank you &amp; your amazing team! We had a great time, filled with fun, laughs and hilarious moments! We had a lot of fun and were amazed by what we have achieved in a so short timeframe.<i class="fa fa-quote-right"></i></li>
+        All our European Communications Team at MasterCard would like to thank you &amp; your amazing team! We had a great time, filled with fun, laughs and hilarious moments! <i class="fa fa-quote-right"></i></li>
         <li><i class="fa fa-quote-left"></i>Hello Frederiek,<br />
-        All our European Communications Team at MasterCard would like to thank you &amp; your amazing team! We had a great time, filled with fun, laughs and hilarious moments! We had a lot of fun and were amazed by what we have achieved in a so short timeframe.<i class="fa fa-quote-right"></i></li>
+        All our European Communications Team at MasterCard would like to thank you &amp; your amazing team! We had a great time, filled with fun, laughs and hilarious moments! <i class="fa fa-quote-right"></i></li>
       </ul>
     </section>
+    <footer id="pageFooter" role="contentinfo">
+      <ul class="leftcol">
+        <li><span class="action">&copy; ActionMaker</span></li>
+      </ul>
+      <ul class="middle">
+        <li>Fratersplein 10, 9000 Gent</li>
+        <li><i class="fa fa-phone"></i><a href="tel:0485462504">0485 46 25 04</a></li>
+        <li><i class="fa fa-envelope"></i><a href="mailto:info@actionmaker.be">info@actionmaker.be</a></li>
+      </ul>
+    </footer>
   </div>
 </div>
 
@@ -89,7 +101,8 @@ en is afgestudeerd in de pedagogische wetenschappen</p>
  $(document).ready(function() {
    $('#fullpage').fullpage(
      {
-       anchors: ['hero', 'activities', 'team', 'referrals']
+     anchors: ['hero', 'activities', 'team', 'referrals'],
+     autoScrolling: false
      }
    );
 }); 

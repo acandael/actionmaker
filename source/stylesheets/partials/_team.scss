@@ -10,8 +10,7 @@
   header {
     @include span-columns(8);
     @include shift(2);
-    margin-top: em(36);
-    margin-bottom: em(81);
+    margin-bottom: em(54);
 
     ul {
       @include clearfix;

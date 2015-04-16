@@ -7,30 +7,40 @@
 
 .hero .tagline {
   font-family: $heading-font-family;
-  position: absolute;
-  top: 58%;
-  left: 30%;
   font-size: em(24);
 }
 
-.activities .tagline {
-  padding-top: em(24);
+.tagline {
   text-align: center;
   font-size: em(24);
   font-family: $heading-font-family;
 }
 
+.hero {
+  .cta {
+    @include span-columns(4);
+    @include shift(4);
+    margin-top: em(81);
+
+    button {
+      float: left;
+      margin-left: em(24);
+    }
+  }
+}
+
+section.animators {
+  @include clearfix;
+}
+
 section.gallery {
+  @include clearfix;
   margin-top: em(81);
 }
 
 .hero button {
-  position: absolute;
-  bottom: em(100);
   &.activiteiten {
-    left: 37%;
   }
   &.team {
-    left: 50%;
   }
 }

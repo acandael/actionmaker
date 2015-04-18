@@ -18,7 +18,7 @@
       <fieldset>
       <div class="field">
         <label for="name">Naam:</label>
-        <input type="text" id="name" />
+        <input type="text" id="name" autofocus />
       </div>
       <div class="field">
         <label for="mail">Email:</label>
@@ -41,14 +41,26 @@
 </div>
   <section class="gallery">
     <ul>
-      <li><a href="#"><%= image_tag "schermen-1.jpg" %></a></li>
-      <li><a href="#"><%= image_tag "schermen-1.jpg" %></a></li>
-      <li><a href="#"><%= image_tag "schermen-1.jpg" %></a></li>
-      <li><a href="#"><%= image_tag "schermen-1.jpg" %></a></li>
-      <li><a href="#"><%= image_tag "schermen-1.jpg" %></a></li>
-      <li><a href="#"><%= image_tag "schermen-1.jpg" %></a></li>
-      <li><a href="#"><%= image_tag "schermen-1.jpg" %></a></li>
-      <li><a href="#"><%= image_tag "schermen-1.jpg" %></a></li>
+      <li><a href="/images/schermen-1-big.jpg"><%= image_tag "schermen-1.jpg" %></a></li>
+      <li><a href="/images/schermen-2-big.jpg"><%= image_tag "schermen-2.jpg" %></a></li>
+      <li><a href="/images/schermen-3-big.jpg"><%= image_tag "schermen-3.jpg" %></a></li>
+      <li><a href="/images/schermen-4-big.jpg"><%= image_tag "schermen-4.jpg" %></a></li>
+      <li><a href="/images/schermen-5-big.jpg"><%= image_tag "schermen-5.jpg" %></a></li>
+      <li><a href="/images/schermen-6-big.jpg"><%= image_tag "schermen-6.jpg" %></a></li>
+      <li><a href="/images/schermen-7-big.jpg"><%= image_tag "schermen-7.jpg" %></a></li>
+      <li><a href="/images/schermen-8-big.jpg"><%= image_tag "schermen-8.jpg" %></a></li>
     </ul>
   </section>
 </article>
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  // other options
+  gallery:{
+    enabled:true
+  }
+});
+  });
+</script>

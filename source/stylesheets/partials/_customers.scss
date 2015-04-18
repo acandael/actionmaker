@@ -1,6 +1,5 @@
 section.customers {
   @include outer-container;
-  padding-top: em(36);
   p.tagline {
     text-align: center;
     font-family: $heading-font-family;

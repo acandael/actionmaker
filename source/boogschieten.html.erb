@@ -1,0 +1,68 @@
+<section class="banner">
+  <%= image_tag "banner-boogschieten.jpg" %>
+</section>
+<article class="activity">
+  <header>
+    <h1>Boogschieten</h1>
+  </header>
+  <div class="content">
+  <section class="bodytext">
+    <p>Na een korte kennismaking wordt uitleg gegeven over het boogschieten onder andere over de verschillende bogen. Gevolgd door een korte uitleg over de techniek van het handboogschieten.</p> 
+    <p>Voor de initiaties word een cycloopboog gebruikt die zowel door rechts- als linkshandigen kan gebruikt worden. Elke schutter krijgt een armbeschermer . Niet- loshangende kledij is nodig voor een goede boogschietinitiatie.</p>
+    <h2>Voor wie?</h2>
+    <p>Deze workshop is erg leuk om met collega's, zakelijke relaties of vrienden aan deel te nemen. Een initiatie kan aangeboden worden als teambuilding, een break van een meeting of een extraatje bij een familiefeest.</p>
+    <h2>Programma:</h2> 
+    <p>Nadat de instructeur de afspraken betreffende de veiligheidsregels heeft doorgenomen is het de beurt aan de deelnemers.   Eerst is er de oefensessie. Aanwijzingen worden gegeven en de schiethouding van de schutters  wordt verbeterd.</p>
+    <p>Na de oefensessie gaan we voor het echte werk, nu wordt  voor  teampunten of individuele punten geschoten.</p>
+  </section>
+  <section class="contactform">
+    <form>
+      <fieldset>
+      <div class="field">
+        <label for="name">Naam:</label>
+        <input type="text" id="name" autofocus />
+      </div>
+      <div class="field">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" />
+      </div>
+      <div class="field">
+        <label for="phone">Telefoon:</label>
+        <input type="text" id="phone" />
+      </div>
+      <div class="field">
+        <label for="msg">Bijkomende informatie:</label>
+        <textarea id="msg"></textarea>
+      </div>
+      <div class="button">
+        <button>Verzenden</button>
+      </div>
+    </fieldset>
+    </form>
+  </section>
+</div>
+  <section class="gallery">
+    <ul>
+      <li><a href="/images/boogschieten-1-big.jpg"><%= image_tag "boogschieten-1.jpg" %></a></li>
+      <li><a href="/images/boogschieten-2-big.jpg"><%= image_tag "boogschieten-2.jpg" %></a></li>
+      <li><a href="/images/boogschieten-3-big.jpg"><%= image_tag "boogschieten-3.jpg" %></a></li>
+      <li><a href="/images/boogschieten-4-big.jpg"><%= image_tag "boogschieten-4.jpg" %></a></li>
+      <li><a href="/images/boogschieten-5-big.jpg"><%= image_tag "boogschieten-5.jpg" %></a></li>
+      <li><a href="/images/boogschieten-6-big.jpg"><%= image_tag "boogschieten-6.jpg" %></a></li>
+      <li><a href="/images/boogschieten-7-big.jpg"><%= image_tag "boogschieten-7.jpg" %></a></li>
+      <li><a href="/images/boogschieten-8-big.jpg"><%= image_tag "boogschieten-8.jpg" %></a></li>
+    </ul>
+  </section>
+</article>
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  // other options
+  gallery:{
+    enabled:true
+  }
+});
+  });
+</script>

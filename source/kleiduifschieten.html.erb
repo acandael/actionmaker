@@ -1,0 +1,66 @@
+<section class="banner">
+  <%= image_tag "banner-kleiduifschieten.jpg" %>
+</section>
+<article class="activity">
+  <header>
+    <h1>Kleiduifschieten</h1>
+  </header>
+  <div class="content">
+  <section class="bodytext">
+    <p>Laser Kleiduiven Schieten is sensationeel en veilig, ook voor kinderen en de mindere grote "durfals". Met originele Winchester geweren kunt u uw schietkunsten tonen.</p>
+    <p>In een spannende competitie gaat u op jacht naar de weggeschoten kleiduif. Bij het Laser Kleiduiven Schieten wordt er door vijf deelnemers tegelijkertijd geschoten, maar wie raakt de kleiduif als eerste?</p>
+    <p>Het scorebord geeft aan wie raak heeft geschoten bij de vier verschillende spelvormen.</p>
+    <p>Dit kleiduiven schieten is volstrekt ongevaarlijk want er wordt geschoten met infrarood ( vandaar de naam laser kleiduiven schieten ) en daarmee is het een milieuvriendelijk systeem.</p>
+    <p>Ook `s avonds en s’nachts is dit spannende schietfestijn uitstekend inzetbaar. De lanceer installatie van het laser kleiduiven schieten laadt de fluorescerende duiven op voordat ze worden afgeschoten. Ze geven een lichtgevend heldergroen spoor tegen de nachtelijke hemel.</p>
+  </section>
+  <section class="contactform">
+    <form>
+      <fieldset>
+      <div class="field">
+        <label for="name">Naam:</label>
+        <input type="text" id="name" autofocus />
+      </div>
+      <div class="field">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" />
+      </div>
+      <div class="field">
+        <label for="phone">Telefoon:</label>
+        <input type="text" id="phone" />
+      </div>
+      <div class="field">
+        <label for="msg">Bijkomende informatie:</label>
+        <textarea id="msg"></textarea>
+      </div>
+      <div class="button">
+        <button>Verzenden</button>
+      </div>
+    </fieldset>
+    </form>
+  </section>
+</div>
+  <section class="gallery">
+    <ul>
+      <li><a href="/images/kleiduifschieten-1-big.jpg"><%= image_tag "kleiduifschieten-1.jpg" %></a></li>
+      <li><a href="/images/kleiduifschieten-2-big.jpg"><%= image_tag "kleiduifschieten-2.jpg" %></a></li>
+      <li><a href="/images/kleiduifschieten-3-big.jpg"><%= image_tag "kleiduifschieten-3.jpg" %></a></li>
+      <li><a href="/images/kleiduifschieten-4-big.jpg"><%= image_tag "kleiduifschieten-4.jpg" %></a></li>
+      <li><a href="/images/kleiduifschieten-5-big.jpg"><%= image_tag "kleiduifschieten-5.jpg" %></a></li>
+      <li><a href="/images/kleiduifschieten-6-big.jpg"><%= image_tag "kleiduifschieten-6.jpg" %></a></li>
+      <li><a href="/images/kleiduifschieten-7-big.jpg"><%= image_tag "kleiduifschieten-7.jpg" %></a></li>
+      <li><a href="/images/kleiduifschieten-8-big.jpg"><%= image_tag "kleiduifschieten-8.jpg" %></a></li>
+    </ul>
+  </section>
+</article>
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  // other options
+  gallery:{
+    enabled:true
+  }
+});
+  });
+</script>

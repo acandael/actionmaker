@@ -1,0 +1,65 @@
+<section class="banner">
+  <%= image_tag "banner-sumoworstelen.jpg" %>
+</section>
+<article class="activity">
+  <header>
+    <h1>Sumoworstelen</h1>
+  </header>
+  <div class="content">
+  <section class="bodytext">
+    <p>Sumoworstelen is duwen en trekken totdat je tegenstandererbij neervalt. Met 2 personen betreedt u de mat en start u met de bekendeJapanse sumogroet. Op het startsignaal van de spelbegeleider gaat de wedstrijdvan start en moeten de deelnemers elkaar van de mat af duwen voor een half puntof omgooien voor een heel punt. Tot slot mag de winnaar van de match eenoverwinningsjump op de verliezer maken.</p>
+    <p>Naast gewoon sumoworstelen hebben we nu ook de sumotweeling, dit is een erg leuke variant op het welbekende sumoworstel spel, maarhier vergt het goed teamwork met je sumo-partner!</p>
+    <p>Een partijtje sumoworstelen vergt veel van de conditie envan de lachspieren van de toeschouwers, dus houd uw camera klaar!</p>
+    <p>Min. 1,35 m lang, tijdsduur afhankelijk van de groepsgrootte( er zijn ook pakken aangepast voor kinderen)</p>
+  </section>
+  <section class="contactform">
+    <form>
+      <fieldset>
+      <div class="field">
+        <label for="name">Naam:</label>
+        <input type="text" id="name" autofocus />
+      </div>
+      <div class="field">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" />
+      </div>
+      <div class="field">
+        <label for="phone">Telefoon:</label>
+        <input type="text" id="phone" />
+      </div>
+      <div class="field">
+        <label for="msg">Bijkomende informatie:</label>
+        <textarea id="msg"></textarea>
+      </div>
+      <div class="button">
+        <button>Verzenden</button>
+      </div>
+    </fieldset>
+    </form>
+  </section>
+</div>
+  <section class="gallery">
+    <ul>
+      <li><a href="/images/sumoworstelen-1-big.jpg"><%= image_tag "sumoworstelen-1.jpg" %></a></li>
+      <li><a href="/images/sumoworstelen-2-big.jpg"><%= image_tag "sumoworstelen-2.jpg" %></a></li>
+      <li><a href="/images/sumoworstelen-3-big.jpg"><%= image_tag "sumoworstelen-3.jpg" %></a></li>
+      <li><a href="/images/sumoworstelen-4-big.jpg"><%= image_tag "sumoworstelen-4.jpg" %></a></li>
+      <li><a href="/images/sumoworstelen-5-big.jpg"><%= image_tag "sumoworstelen-5.jpg" %></a></li>
+      <li><a href="/images/sumoworstelen-6-big.jpg"><%= image_tag "sumoworstelen-6.jpg" %></a></li>
+      <li><a href="/images/sumoworstelen-7-big.jpg"><%= image_tag "sumoworstelen-7.jpg" %></a></li>
+      <li><a href="/images/sumoworstelen-8-big.jpg"><%= image_tag "sumoworstelen-8.jpg" %></a></li>
+    </ul>
+  </section>
+</article>
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  // other options
+  gallery:{
+    enabled:true
+  }
+});
+  });
+</script>

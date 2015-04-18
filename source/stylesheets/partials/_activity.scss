@@ -20,6 +20,10 @@ article.activity {
   section.bodytext {
     @include span-columns(6);
     padding-right: em(16);
+
+    ul {
+      @extend %default-ul;
+    }
   }
 
   section.contactform {

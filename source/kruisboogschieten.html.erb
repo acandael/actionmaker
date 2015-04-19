@@ -1,0 +1,66 @@
+<section class="banner">
+  <%= image_tag "banner-kruisboogschieten.jpg" %>
+</section>
+<article class="activity">
+  <header>
+    <h1>(Pistool)Kruisboogschieten</h1>
+  </header>
+  <div class="content">
+  <section class="bodytext">
+    <p>De kruisboog is een eeuwenoud mechanisch wapen waarbij eenpijl met grote kracht wordt weggeschoten.</p>
+    <p>Na een uitleg door een ervaren initiator beginnen wij meteen oefensessie met pistoolkruisbogen en geweerkruisboogschieten.Concentratie en techniek gaan hierbij letterlijk hand in hand.</p>
+    <p>Een kruisboog pistool is zeker geen speelgoed. Ook een kruisboogpistool met een trekgewicht van 50 LBS schiet meer dan 20 meter ver en zuiver.Een uitvoering van 80 LBS schiet nog verder. Een pistoolkruisboog heeft driekeer de inslagkracht die nodig is voor het doden van klein wild zoals eenkonijn.</p>
+    <p>Na de oefensessie wordt het competitiegedeelte ingezet wantdan wordt er voor de teampunten of individuele punten geschoten. Iederedeelnemer schiet dan een vooraf afgesproken aantal pijlen.</p>
+    <p>Voel je gedurende onze initiatie kruisboogschieten de nieuweWillem Tel</p>
+  </section>
+  <section class="contactform">
+    <form>
+      <fieldset>
+      <div class="field">
+        <label for="name">Naam:</label>
+        <input type="text" id="name" autofocus />
+      </div>
+      <div class="field">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" />
+      </div>
+      <div class="field">
+        <label for="phone">Telefoon:</label>
+        <input type="text" id="phone" />
+      </div>
+      <div class="field">
+        <label for="msg">Bijkomende informatie:</label>
+        <textarea id="msg"></textarea>
+      </div>
+      <div class="button">
+        <button>Verzenden</button>
+      </div>
+    </fieldset>
+    </form>
+  </section>
+</div>
+  <section class="gallery">
+    <ul>
+      <li><a href="/images/kruisboogschieten-1-big.jpg"><%= image_tag "kruisboogschieten-1.jpg" %></a></li>
+      <li><a href="/images/kruisboogschieten-2-big.jpg"><%= image_tag "kruisboogschieten-2.jpg" %></a></li>
+      <li><a href="/images/kruisboogschieten-3-big.jpg"><%= image_tag "kruisboogschieten-3.jpg" %></a></li>
+      <li><a href="/images/kruisboogschieten-4-big.jpg"><%= image_tag "kruisboogschieten-4.jpg" %></a></li>
+      <li><a href="/images/kruisboogschieten-5-big.jpg"><%= image_tag "kruisboogschieten-5.jpg" %></a></li>
+      <li><a href="/images/kruisboogschieten-6-big.jpg"><%= image_tag "kruisboogschieten-6.jpg" %></a></li>
+      <li><a href="/images/kruisboogschieten-7-big.jpg"><%= image_tag "kruisboogschieten-7.jpg" %></a></li>
+      <li><a href="/images/kruisboogschieten-8-big.jpg"><%= image_tag "kruisboogschieten-8.jpg" %></a></li>
+    </ul>
+  </section>
+</article>
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  // other options
+  gallery:{
+    enabled:true
+  }
+});
+  });
+</script>

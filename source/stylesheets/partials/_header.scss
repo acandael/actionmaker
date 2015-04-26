@@ -77,8 +77,13 @@
     display: block;
     text-align: right;
     width: 100%;
+    background: black;
+    opacity: .8;
+    line-height: 2em;
+    padding-right: 2em;
 
     @include media ($large-screen) {
+      padding-right: 0;
       background: transparent;
       display: inline;
       text-decoration: none;

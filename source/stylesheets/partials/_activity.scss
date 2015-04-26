@@ -1,5 +1,7 @@
 article.activity {
   @include outer-container;
+  padding-left: 1em;
+  padding-right: 1em;
 
   .banner {
     margin-top: em(24);
@@ -18,8 +20,10 @@ article.activity {
   }
 
   section.bodytext {
-    @include span-columns(6);
-    padding-right: em(16);
+    @include media($medium-screen) {
+      @include span-columns(6);
+      padding-right: em(16);
+    }
 
     ul {
       @extend %default-ul;
@@ -27,12 +31,16 @@ article.activity {
   }
 
   section.contactform {
-    @include span-columns(6);
-    @include omega();
-    float: left;
+    @include media($medium-screen) {
+      @include span-columns(6);
+      @include omega();
+      float: left;
+    }
 
     button {
-      float: right;
+      @include media($medium-screen) {
+        float: right;
+      }
       margin-top: em(16);
     }
   }

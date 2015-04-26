@@ -10,7 +10,9 @@
     display: block;
     float: right;
     margin: 0;
-    padding-top: 0.5em;
+    margin-right: em(16);
+    padding-top: 1.6em;
+    padding-right: 1.6em;
 
     @include media ($large-screen) {
       display: none;
@@ -25,7 +27,10 @@
 
   .logo {
     float: left;
-    margin-left: em(81);
+    margin-left: em(16);
+    @include media($medium-screen) {
+      margin-left: em(81);
+    }
     color: #000000; 
     font-family: $heading-font-family;
     font-size: em(24);

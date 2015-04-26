@@ -1,10 +1,14 @@
 section.quotes {
   margin-top: em(36);
+  padding-left: 1em;
+  padding-right: 1em;
   .refboxes {
     @include outer-container;
     li {
-      @include span-columns(6);
-      @include omega(2n);
+      @include media($medium-screen) {
+        @include span-columns(6);
+        @include omega(2n);
+      }
       margin-bottom: em(24);
       padding: em(30);
       background-color: #f5f5f5;

@@ -1,14 +1,29 @@
 .gallery { 
- @include outer-container;
+  @include outer-container;
+  margin: 0 auto;
+
+  header {
+    p.tagline {
+      margin-bottom: em(24);
+      padding-bottom: em(24);
+    }
+
+  }
+ 
+  ul { text-align: center; }
 
  li {
-   @include span-columns(3);
-   @include omega(4n);
-   margin-bottom: em(36);
+     @include media($medium-screen) {
+       @include span-columns(3);
+       @include omega(4n);
+     }
+     margin-bottom: em(36);
    a {
-    &:hover {
+      color: $base-font-color;
+      @include clearfix;
+      &:hover {
       opacity: .5;
+      }
     }
-   }
- }
+  }
 }

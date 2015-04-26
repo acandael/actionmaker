@@ -1,9 +1,17 @@
 .team {
-  section.animators {
   @include outer-container;
+  section.animators {
+
+  ul {
+    @include clearfix;
+    text-align: center;
+    margin-bottom: em(36);
+  }
 
   li {
-    @include span-columns(4);
+    @include media($medium-screen) {
+      @include span-columns(4);
+      }
     }
   }
 
@@ -11,11 +19,8 @@
     @include span-columns(8);
     @include shift(2);
     margin-bottom: em(54);
-
-    ul {
-      @include clearfix;
-    }
   }
+
 
   p.tagline {
     text-align: center;

@@ -10,6 +10,7 @@ footer#pageFooter {
     line-height: 1.5em;
     margin-left: em(16);
     color: #ababab;
+    font-size: $base-font-size * .8;
   }
 
   .action {
@@ -22,8 +23,10 @@ footer#pageFooter {
   }
 
   ul.middle {
-    @include span-columns(6);
-    @include shift(2);
+    @include media($medium-screen) {
+      @include span-columns(6);
+      @include shift(2);
+    }
   }
 
   i {

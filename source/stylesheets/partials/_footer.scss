@@ -20,6 +20,9 @@ footer#pageFooter {
 
   a {
     color: #ababab;
+    &:hover {
+      color: #e9e6e6;
+    }
   }
 
   ul.middle {

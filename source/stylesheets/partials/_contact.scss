@@ -1,9 +1,13 @@
+section.banner {
+  margin-top: em(24);
+  margin-bottom: em(24);
+}
+
 article.contact {
   @include outer-container;
-  section.banner {
-    margin-top: em(24);
-    margin-bottom: em(24);
-  }
+  padding-left: 1em;
+  padding-right: 1em;
+  
   header {
     @include span-columns(8);
     @include shift(2);
@@ -22,13 +26,18 @@ article.contact {
     padding-bottom: em(24);
 
     section.bodytext {
-      @include span-columns(6 of 12);
-      float: left;
+      margin-bottom: em(36);
+      @include media($medium-screen) {
+        @include span-columns(6 of 12);
+        float: left;
+      }
     }
 
     aside {
-      @include span-columns(6 of 12);
-      float: right;
+      @include media($medium-screen) {
+        @include span-columns(6 of 12);
+        float: right;
+      }
     }
   }
   p.tagline {

@@ -9,8 +9,10 @@ article.contact {
   padding-right: 1em;
   
   header {
-    @include span-columns(8);
-    @include shift(2);
+    @include media($medium-screen) {
+      @include span-columns(8);
+      @include shift(2);
+    }
     padding: em(24) 0;
 
     .action {

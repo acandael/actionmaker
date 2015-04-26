@@ -4,6 +4,7 @@ footer#pageFooter {
   background-color: #000;
   padding-left: em(24);
   padding-top: em(8);
+  padding-right: em(24);
   @include media($medium-screen) {
     padding-top: em(16);
   }

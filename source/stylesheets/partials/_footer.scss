@@ -3,7 +3,10 @@ footer#pageFooter {
   height: 60px;
   background-color: #000;
   padding-left: em(24);
-  padding-top: em(16);
+  padding-top: em(8);
+  @include media($medium-screen) {
+    padding-top: em(16);
+  }
 
   li {
     float: left;

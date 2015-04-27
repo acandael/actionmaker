@@ -58,6 +58,18 @@
     background-position: 0 -1404px;
   }
 
+  .banner-pistoolschieten {
+    width: 25%;
+    height: 250px;
+    @include media($medium-screen) {
+      width: 100%;
+      height: 350px;
+    }
+    background-image: url('../../images/sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -1755px;
+  }
+
   .gallery-schermen {
     width: 225px;
     height: 156px;
@@ -104,6 +116,14 @@
     background-image: url('../../images/gallery-sprite.jpg');
     background-repeat: no-repeat;
     background-position: 0 -785px;
+  }
+
+  .gallery-pistoolschieten {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/gallery-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -942px;
   }
 
  .schermen-1 {
@@ -486,6 +506,70 @@
     width: 225px;
     height: 156px;
     background-image: url('../../images/kruisboogschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -1099px;
+ }
+
+.pistoolschieten-1 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistoolschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+ }
+
+ .pistoolschieten-2 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistoolschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -157px;
+ }
+
+ .pistoolschieten-3 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistoolschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -314px;
+ }
+
+ .pistoolschieten-4 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistoolschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -471px;
+ }
+
+ .pistoolschieten-5 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistoolschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -628px;
+ }
+
+ .pistoolschieten-6 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistoolschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -785px;
+ }
+
+ .pistoolschieten-7 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistoolschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -942px;
+ }
+
+ .pistoolschieten-8 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistoolschieten-sprite.jpg');
     background-repeat: no-repeat;
     background-position: 0 -1099px;
  }

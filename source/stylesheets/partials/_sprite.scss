@@ -15,25 +15,26 @@
     background-size: cover;
     width: 100%;
     height: 81px;
-    background-position: 0 -93px;
+    background-position: 0 -83px;
     @include media($medium-screen) {
       height: 350px;
+      background-position: 0 -351px;
     }
     background-image: url('../../images/sprite.jpg');
     background-repeat: no-repeat;
-    background-position: 0 -351px;
   }
 
   .banner-sumoworstelen {
     background-size: cover;
     width: 100%;
     height: 81px;
+    background-position: 0 -166px;
     @include media($medium-screen) {
       height: 350px;
+      background-position: 0 -702px;
     }
     background-image: url('../../images/sprite.jpg');
     background-repeat: no-repeat;
-    background-position: 0 -702px;
   }
 
   .banner-blaaspijpschieten {

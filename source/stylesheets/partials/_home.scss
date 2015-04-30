@@ -15,9 +15,9 @@
 .hero {
 
   .cta {
+    margin-top: em(24);
+    margin-bottom: em(24);
     @include media($medium-screen) {
-      margin-top: em(24);
-      padding-top: em(24);
       @include span-columns(5);
       @include shift(4);
     }

@@ -38,6 +38,8 @@
 
 section.animators {
   @include clearfix;
+  margin-left: em(16);
+  margin-right: em(16);
 }
 
 div.activities {

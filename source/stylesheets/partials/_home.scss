@@ -1,12 +1,14 @@
 
 .hero .tagline {
   font-family: $heading-font-family;
-  font-size: em(24);
 }
 
 .tagline {
   text-align: center;
-  font-size: em(24);
+  font-size: $base-font-size * 1.2;
+  @include media($medium-screen){
+    font-size: em(24);
+  }
   font-family: $heading-font-family;
 }
 

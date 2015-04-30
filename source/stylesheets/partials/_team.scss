@@ -1,31 +1,26 @@
 .team {
   @include outer-container;
+
   section.animators {
+    ul {
+      @include clearfix;
+      text-align: center;
+      margin-bottom: em(36);
+    }
 
-  ul {
-    @include clearfix;
-    text-align: center;
-    margin-bottom: em(36);
-  }
-
-  li {
-    @include media($medium-screen) {
-      @include span-columns(4);
+    li {
+      @include media($medium-screen) {
+        @include span-columns(4);
       }
     }
   }
 
   header {
-    @include span-columns(8);
-    @include shift(2);
+    @include media($medium-screen) {
+      @include span-columns(8);
+      @include shift(2);
+    }
     margin-bottom: em(54);
-  }
-
-
-  p.tagline {
-    text-align: center;
-    font-family: $heading-font-family;
-    font-size: em(24);
   }
 
   h2 {

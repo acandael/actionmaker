@@ -1,6 +1,8 @@
 .gallery { 
   @include outer-container;
   margin: 0 auto;
+  margin-left: 1em;
+  margin-right: 1em;
 
   header {
     p.tagline {

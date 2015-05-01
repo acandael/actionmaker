@@ -3,6 +3,10 @@
   margin: 0 auto;
   margin-left: 1em;
   margin-right: 1em;
+  @include media($medium-screen){
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   header {
     p.tagline {

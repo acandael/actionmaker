@@ -7,7 +7,12 @@ hide_footer: true
   <div class="section hero">
     <div class="banner">
       <ul class="bxslider">
-        <li><%= image_tag "banner.jpg" %></li>
+        <li><img
+        srcset="images/banner-large.jpg 2850w,
+                images/banner-medium.jpg 1425,
+                images/banner-small.jpg 800w"
+        src="images/banner.jpg"
+        /></li>
         <li><%= image_tag "banner-boogschieten.jpg" %></li>
         <li><%= image_tag "banner-sumoworstelen.jpg" %></li>
         <li><%= image_tag "banner-blaaspijpschieten.jpg" %></li>

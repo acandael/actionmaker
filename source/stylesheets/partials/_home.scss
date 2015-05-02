@@ -15,22 +15,20 @@
 .hero {
 
   .cta {
-    margin-top: em(24);
-    margin-bottom: em(24);
+    padding-left: 1em;
+    padding-right: 1em;
     @include media($medium-screen) {
       @include span-columns(5);
       @include shift(4);
     }
 
     button {
-      margin-left: em(24);
       width: 200px;
     }
     form {
       text-align: center;
-      margin-bottom: em(24);
+      margin-bottom: em(16);
       @include media($medium-screen) {
-      float: left;
       }
     }
   }

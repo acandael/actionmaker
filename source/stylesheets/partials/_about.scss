@@ -1,0 +1,40 @@
+.about {
+  @include outer-container;
+
+  section.over {
+    ul {
+      @include clearfix;
+      text-align: center;
+      margin-bottom: em(36);
+    }
+
+    li {
+      margin-top: em(16);
+      margin-bottom: em(36);
+      @include media($medium-screen) {
+        @include span-columns(4);
+      }
+    }
+
+    i {
+      font-size: $base-font-size * 3;
+      color: $action-color;
+    }
+  }
+
+  header {
+    @include media($medium-screen) {
+      @include span-columns(8);
+      @include shift(2);
+    }
+    margin-bottom: em(54);
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: em(16);
+  }
+}

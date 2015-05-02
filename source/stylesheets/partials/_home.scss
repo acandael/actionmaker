@@ -17,19 +17,18 @@
   .cta {
     padding-left: 1em;
     padding-right: 1em;
-    @include media($medium-screen) {
-      @include span-columns(5);
-      @include shift(4);
-    }
+    text-align: center;
 
     button {
+      @include media($medium-screen){
+      margin-top: em(54);
+      }
+      margin-bottom: em(16);
       width: 200px;
     }
     form {
-      text-align: center;
       margin-bottom: em(16);
-      @include media($medium-screen) {
-      }
+      display: inline;
     }
   }
 }
@@ -42,12 +41,9 @@ section.animators {
 
 div.activities {
   overflow: hidden;
-  margin-bottom: em(36);
   padding-bottom: em(24);
 }
 
-div.team {
-}
 
 
 

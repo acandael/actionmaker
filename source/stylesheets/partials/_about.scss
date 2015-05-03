@@ -1,5 +1,10 @@
 .about {
-  @include outer-container;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  @include media($medium-screen){
+    @include outer-container;
+  }
 
   section.over {
     ul {

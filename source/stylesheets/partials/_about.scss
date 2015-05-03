@@ -16,6 +16,8 @@
     li {
       margin-top: em(16);
       margin-bottom: em(36);
+      padding-left: 1em;
+      padding-right: 1em;
       @include media($medium-screen) {
         @include span-columns(4);
       }

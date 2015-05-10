@@ -1,95 +1,3 @@
-
-  .banner-schermen {
-    display: none;
-    @include media($medium-screen) {
-      display: block;
-      background-size: cover;
-      width: 100%;
-      height: 350px;
-    }
-    background-image: url('../../images/sprite.jpg');
-    background-repeat: no-repeat;
-    background-position: 0 0;
-  }
-
-  .banner-boogschieten {
-    display: none;
-    @include media($medium-screen) {
-      display: block;
-      background-size: cover;
-      width: 100%;
-      height: 350px;
-      background-position: 0 -351px;
-    }
-    background-image: url('../../images/sprite.jpg');
-    background-repeat: no-repeat;
-  }
-
-  .banner-sumoworstelen {
-    display: none;
-    @include media($medium-screen) {
-      display: block;
-      background-size: cover;
-      width: 100%;
-      height: 350px;
-      background-position: 0 -702px;
-    }
-    background-image: url('../../images/sprite.jpg');
-    background-repeat: no-repeat;
-  }
-
-  .banner-blaaspijpschieten {
-    display: none;
-    @include media($medium-screen) {
-      display: block;
-      background-size: cover;
-      width: 100%;
-      height: 350px;
-      background-position: 0 -1050px;
-    }
-    background-image: url('../../images/sprite.jpg');
-    background-repeat: no-repeat;
-  }
-
-  .banner-kruisboogschieten {
-    display: none;
-    @include media($medium-screen) {
-      display: block;
-      background-size: cover;
-      width: 100%;
-      height: 350px;
-      background-position: 0 -1400px;
-    }
-    background-image: url('../../images/sprite.jpg');
-    background-repeat: no-repeat;
-  }
-
-  .banner-pistoolschieten {
-    display: none;
-    @include media($medium-screen) {
-      display: block;
-      background-size: cover;
-      width: 100%;
-      height: 350px;
-      background-position: 0 -1750px;
-    }
-    background-image: url('../../images/sprite.jpg');
-    background-repeat: no-repeat;
-  }
-
-  .banner-kleiduifschieten {
-    display: none;
-    @include media($medium-screen) {
-      display: block;
-      background-size: cover;
-      width: 100%;
-      height: 350px;
-      background-position: 0 -2106px;
-    }
-    background-image: url('../../images/sprite.jpg');
-    background-repeat: no-repeat;
-  }
-
   .gallery-schermen {
     width: 225px;
     height: 156px;
@@ -130,7 +38,7 @@
     background-position: 0 -628px;
   }
 
-  .gallery-kruisboogschieten {
+  .gallery-pistool-kruisboogschieten {
     width: 225px;
     height: 156px;
     background-image: url('../../images/gallery-sprite.jpg');
@@ -138,12 +46,21 @@
     background-position: 0 -785px;
   }
 
+
   .gallery-pistoolschieten {
     width: 225px;
     height: 156px;
     background-image: url('../../images/gallery-sprite.jpg');
     background-repeat: no-repeat;
     background-position: 0 -942px;
+  }
+
+  .gallery-kruisboogschieten {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/gallery-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -1099px;
   }
 
  .schermen-1 {
@@ -526,6 +443,70 @@
     width: 225px;
     height: 156px;
     background-image: url('../../images/kruisboogschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -1099px;
+ }
+
+.pistool-kruisboogschieten-1 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistool-kruisboogschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+ }
+
+ .pistool-kruisboogschieten-2 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistool-kruisboogschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -157px;
+ }
+
+ .pistool-kruisboogschieten-3 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistool-kruisboogschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -314px;
+ }
+
+ .pistool-kruisboogschieten-4 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistool-kruisboogschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -471px;
+ }
+
+ .pistool-kruisboogschieten-5 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistool-kruisboogschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -628px;
+ }
+
+ .pistool-kruisboogschieten-6 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistool-kruisboogschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -785px;
+ }
+
+ .pistool-kruisboogschieten-7 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistool-kruisboogschieten-sprite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -942px;
+ }
+
+ .pistool-kruisboogschieten-8 {
+    width: 225px;
+    height: 156px;
+    background-image: url('../../images/pistool-kruisboogschieten-sprite.jpg');
     background-repeat: no-repeat;
     background-position: 0 -1099px;
  }

@@ -1,0 +1,75 @@
+---
+title: "Chocolade Workshop"
+description: "Wie heeft een vaste hand om met knikloop enkelschotpistool de roos te treffen."
+---
+
+<section class="banner">
+  <img 
+  srcset="images/banner-chocolade-large.jpg 2850w,
+          images/banner-chocolade-medium.jpg 1425w,
+          images/banner-chocolade-small.jpg 700w"
+  src="images/banner-chocolade-medium.jpg" alt="chocolade workshop" />
+</section>
+<article class="activity">
+  <header>
+    <h1>Chocolade Workshop</h1>
+  </header>
+  <div class="content">
+  <section class="bodytext">
+    <p>Wie heeft een vaste hand om met knikloop enkelschotpistool de roos te treffen. Wij schieten met een kaliber .177.</p>
+    <p>We leren u in alle veiligheid omgaan met het wapen.</p>
+    <p>Eerst oefenen en dan is er een wedstrijd.</p>
+    <p>2 soorten doelen worden er gebruikt, eerst alle eendjes neerschieten en terug recht zetten.</p>
+    </p>Hierna volgt het doelschieten, wie haalt de beste score.</p>
+  </section>
+  <section class="contactform">
+    <form>
+      <fieldset>
+      <div class="field">
+        <label for="name">Naam:</label>
+        <input type="text" id="name" autofocus />
+      </div>
+      <div class="field">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" />
+      </div>
+      <div class="field">
+        <label for="phone">Telefoon:</label>
+        <input type="text" id="phone" />
+      </div>
+      <div class="field">
+        <label for="msg">Bijkomende informatie:</label>
+        <textarea id="msg"></textarea>
+      </div>
+      <div class="button">
+        <button>Verzenden</button>
+      </div>
+    </fieldset>
+    </form>
+  </section>
+</div>
+  <section class="gallery">
+    <ul>
+      <li><a href="/images/chocolade-1-big.jpg"><img class="chocolade-1" /></a></li>
+      <li><a href="/images/chocolade-2-big.jpg"><img class="chocolade-2" /></a></li>
+      <li><a href="/images/chocolade-3-big.jpg"><img class="chocolade-3" /></a></li>
+      <li><a href="/images/chocolade-4-big.jpg"><img class="chocolade-4" /></a></li>
+      <li><a href="/images/chocolade-5-big.jpg"><img class="chocolade-5" /></a></li>
+      <li><a href="/images/chocolade-6-big.jpg"><img class="chocolade-6" /></a></li>
+      <li><a href="/images/chocolade-7-big.jpg"><img class="chocolade-7" /></a></li>
+      <li><a href="/images/chocolade-8-big.jpg"><img class="chocolade-8" /></a></li>
+    </ul>
+  </section>
+</article>
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  // other options
+  gallery:{
+    enabled:true
+  }
+});
+  });
+</script>

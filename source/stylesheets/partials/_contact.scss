@@ -13,13 +13,8 @@ article.contact {
       @include shift(2);
     }
     padding: em(24) 0;
-
-    .action {
-      color: $action-color;
-    }
   }
   div.content {
-    @include clearfix;
     @include span-columns(12);
 
     margin-top: em(36);
@@ -41,9 +36,6 @@ article.contact {
       }
     }
   }
-  p.tagline {
-    text-align: center;
-  }
 
   h2 {
     color: $action-color;
@@ -54,8 +46,5 @@ article.contact {
     color: $action-color;
   }
 
-  a {
-    color: $base-font-color;
-  }
 
 }

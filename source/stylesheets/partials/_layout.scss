@@ -1,4 +1,5 @@
 h1 {
+  text-align: center;
   font-size: $base-font-size * 2;
   @include media($medium-screen) {
     font-size: $base-font-size * 2.25;
@@ -7,4 +8,75 @@ h1 {
 
 .action {
   color: $action-color;
+}
+
+.tagline {
+  margin-bottom: em(24);
+  padding-bottom: em(24);
+}
+
+a {
+  color: $base-font-color;
+  &:hover {
+    color: $action-color;
+  }
+}
+
+.customers, .gallery, .about, .team, .activity {
+  @include outer-container;
+}
+
+// activities 
+
+article {
+
+  .banner {
+    margin-top: em(24);
+  }
+
+  h1 {
+    font-size: $base-font-size * 1.5;
+    @include media($medium-screen) {
+      margin-top: em(24);
+      margin-bottom: em(24);
+      font-size: $base-font-size * 2.25;
+    }
+  }
+
+  .content {
+    @include clearfix;
+    margin-bottom: em(24);
+  }
+
+  section.bodytext {
+    @include media($medium-screen) {
+      @include span-columns(6);
+      padding-right: em(16);
+    }
+
+    ul {
+      @extend %default-ul;
+    }
+  }
+
+  section.contactform {
+    @include media($medium-screen) {
+      @include span-columns(6);
+      @include omega();
+      float: left;
+    }
+
+    button {
+      @include media($medium-screen) {
+        float: right;
+      }
+      margin-top: em(16);
+    }
+  }
+
+  section.gallery {
+    @include clearfix;
+    padding-top: em(24);
+    margin-bottom: em(36);
+  }
 }

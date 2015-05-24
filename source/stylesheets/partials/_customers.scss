@@ -1,10 +1,4 @@
 section.customers {
-  @include outer-container;
-  p.tagline {
-    text-align: center;
-    font-family: $heading-font-family;
-    font-size: em(24);
-  }
 
   .logos {
     margin-top: em(36);

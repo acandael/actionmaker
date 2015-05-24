@@ -1,6 +1,4 @@
 .team {
-  @include outer-container;
-
   section.animators {
     ul {
       @include clearfix;
@@ -23,10 +21,6 @@
       @include shift(2);
     }
     margin-bottom: em(54);
-  }
-
-  h1 {
-    text-align: center;
   }
 
   h2 {

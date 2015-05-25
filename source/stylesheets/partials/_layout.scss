@@ -22,6 +22,10 @@ a {
   }
 }
 
+a#js-mobile-menu{
+  color: #aba7a7;
+}
+
 .customers, .gallery, .about, .team, .activity {
   @include outer-container;
 }

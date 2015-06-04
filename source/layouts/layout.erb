@@ -10,22 +10,20 @@
     <title><%= current_page.data.title || "ActionMaker" %></title>
     <meta name="description" content="<%= current_page.data.description %>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--[if lt IE 9]>
-		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-    
+  <%= stylesheet_link_tag "normalize", "jquery.fullPage", "jquery.bxslider", "magnific-popup", "all" %>
+    <%= stylesheet_link_tag '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="[JS library]"></script>
+    <!--[if lt IE 9]>
+		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
       <!--[if (gte IE 6)&(lte IE 8)]>
       <script type="text/javascript" src="javascripts/selectivizr-min.js"></script>
       <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
       <![endif]-->
     <%= javascript_include_tag  "all" %>
-  <%= stylesheet_link_tag "normalize", "jquery.fullPage", "jquery.bxslider", "magnific-popup", "all" %>
-    <%= stylesheet_link_tag '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' %>
   </head>
   
   <body class="<%= page_classes %>">

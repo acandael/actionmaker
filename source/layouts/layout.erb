@@ -23,12 +23,12 @@
       <script type="text/javascript" src="javascripts/selectivizr-min.js"></script>
       <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
       <![endif]-->
-    <%= javascript_include_tag  "all" %>
   </head>
   
   <body class="<%= page_classes %>" lang="nl">
     <%= partial 'partials/header' %>
     <%= yield %>
     <%= partial 'partials/footer' unless current_page.data.hide_footer %>
+    <%= javascript_include_tag  "all" %>
   </body>
 </html>

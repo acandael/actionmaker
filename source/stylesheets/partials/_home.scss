@@ -20,9 +20,6 @@
     text-align: center;
 
     button {
-      @include media($medium-screen){
-      margin-top: em(54);
-      }
       margin-bottom: em(16);
       width: 200px;
     }

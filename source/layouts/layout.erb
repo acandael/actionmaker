@@ -26,7 +26,7 @@
     <%= javascript_include_tag  "all" %>
   </head>
   
-  <body class="<%= page_classes %>">
+  <body class="<%= page_classes %>" lang="nl">
     <%= partial 'partials/header' %>
     <%= yield %>
     <%= partial 'partials/footer' unless current_page.data.hide_footer %>

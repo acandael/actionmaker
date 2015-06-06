@@ -53,7 +53,7 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-set :url_root, 'http://localhost:4567'
+set :url_root, 'http://www.actionmaker.be'
 
 activate :search_engine_sitemap
 

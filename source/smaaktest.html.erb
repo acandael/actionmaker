@@ -1,0 +1,75 @@
+---
+title: "Smaaktest"
+description: "Weet u welke kruiden u in het eten gebruikt. En kan u deze herkennen zonder etiket?"
+---
+
+<section class="banner">
+  <img 
+  srcset="images/banner-smaaktest-large.jpg 2850w,
+          images/banner-smaaktest-medium.jpg 1425w,
+          images/banner-smaaktest-small.jpg 700w"
+  src="images/banner-smaaktest-medium.jpg" alt="smaaktest" />
+</section>
+<article class="activity">
+  <header>
+    <h1>Smaaktest</h1>
+  </header>
+  <div class="content">
+  <section class="bodytext">
+    <p>Weet u welke kruiden u in het eten gebruikt. En kan u deze herkennen zonder etiket?</p>
+    <p>Koopt u in de winkel enkel uw kruiden en kaas op naam of kan u deze herkennen zonder etiket?</p>
+    <p>Welk bier of cola drinkt u nu juist? Weet u of u een Jupiler of een Maes of een Leffe of een Palm drinkt?</p>
+    <p>Met de smaaktest gaan wij na in hoeverre u dit alles kan herkennen en hoe sterk uw smaakzintuig is.</p>
+  </section>
+  <section class="contactform">
+    <form name="info-smaaktest" action="/bedankt.html">
+      <fieldset>
+        <h2>Vraag meer info de smaaktest:</h2>
+      <div class="field">
+        <label for="name">Naam:</label>
+        <input type="text" name="name" autofocus required />
+      </div>
+      <div class="field">
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" required />
+      </div>
+      <div class="field">
+        <label for="phone">Telefoon:</label>
+        <input type="text" name="phone" />
+      </div>
+      <div class="field">
+        <label for="msg">Bijkomende informatie:</label>
+        <textarea name="msg"></textarea>
+      </div>
+      <div class="button">
+        <button>Verzenden</button>
+      </div>
+    </fieldset>
+    </form>
+  </section>
+</div>
+  <section class="gallery">
+    <ul>
+      <li><a href="/images/smaaktest-1-big.jpg"><img class="smaaktest-1" /></a></li>
+      <li><a href="/images/smaaktest-2-big.jpg"><img class="smaaktest-2" /></a></li>
+      <li><a href="/images/smaaktest-3-big.jpg"><img class="smaaktest-3" /></a></li>
+      <li><a href="/images/smaaktest-4-big.jpg"><img class="smaaktest-4" /></a></li>
+      <li><a href="/images/smaaktest-5-big.jpg"><img class="smaaktest-5" /></a></li>
+      <li><a href="/images/smaaktest-6-big.jpg"><img class="smaaktest-6" /></a></li>
+      <li><a href="/images/smaaktest-7-big.jpg"><img class="smaaktest-7" /></a></li>
+      <li><a href="/images/smaaktest-8-big.jpg"><img class="smaaktest-8" /></a></li>
+    </ul>
+  </section>
+</article>
+<script>
+  $(document).ready(function() {
+    $('.gallery').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
+  // other options
+  gallery:{
+    enabled:true
+  }
+});
+  });
+</script>

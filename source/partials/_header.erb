@@ -7,25 +7,12 @@
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
         <li data-menuanchor="about" class="nav-link"><a href="/#about">Over ActionMaker</a></li>
-        <li data-menuanchor="activities" class="nav-link"><a href="/#activities">Teambuilding</a></li>
+        <li data-menuanchor="activities" class="nav-link"><a href="/#activities">Activiteiten</a></li>
+        <li data-menuanchor="activities" class="nav-link"><a href="/#team">Ons Team</a></li>
+        <li data-menuanchor="activities" class="nav-link"><a href="/#referrals">Onze Klanten</a></li>
         <li class="nav-link"><a href="/contact.html">Contact</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
-<script>
-  $(document).ready(function() {
-    var menuToggle = $('#js-mobile-menu').unbind();
-    $('#js-navigation-menu').removeClass("show");
-
-    menuToggle.on('click', function(e) {
-      e.preventDefault();
-      $('#js-navigation-menu').slideToggle(function(){
-        if($('#js-navigation-menu').is(':hidden')) {
-          $('#js-navigation-menu').removeAttr('style');
-        }
-      });
-    });
-  });
-</script>

@@ -11,6 +11,7 @@
       margin-bottom: em(36);
       @include media($medium-screen) {
         @include span-columns(4);
+        @include omega();
       }
     }
   }

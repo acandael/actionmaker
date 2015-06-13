@@ -11,8 +11,13 @@ h1 {
 }
 
 .tagline {
+  @include media($large-screen){
+    font-size: em(24);
+  }
+  text-align: center;
+  font-size: $base-font-size * 1;
+  font-family: $heading-font-family;
   margin-bottom: em(24);
-  padding-bottom: em(24);
 }
 
 a {

@@ -19,6 +19,18 @@
       display: inline;
     }
   }
+
+  h1 {
+    @include media($large-screen){
+      font-size: em(24);
+    }
+    text-align: center;
+    font-size: $base-font-size * 1;
+    font-family: $heading-font-family;
+    margin-bottom: em(36);
+    line-height: 1.6em;
+    letter-spacing: .08em;
+  }
 }
 
 section.animators {

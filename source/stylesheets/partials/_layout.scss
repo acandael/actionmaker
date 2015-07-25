@@ -90,6 +90,20 @@ article {
       }
       margin-top: em(16);
     }
+    
+    label {
+      margin-right: em(5);
+      @include media($medium-screen){
+        text-align: right;
+      }
+      float: left;
+      width: em(105);
+    }
+
+    textarea {
+      display: block;
+      width: 100%;
+    }
   }
 
   section.gallery {

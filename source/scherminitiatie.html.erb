@@ -33,23 +33,23 @@ description: "De scherminitiatie wordt telkens afgesloten met onderlinge duels w
       <fieldset>
       <h2>Vraag meer info over de scherminitiatie:</h2>
       <div class="field">
-        <label for="name">Naam:</label>
-        <input type="text" name="name" autofocus />
+        <label for="name">Naam: </label>
+        <input type="text" name="name" id="name" maxlength="40" size="40" required autofocus />
       </div>
       <div class="field">
-        <label for="mail">Email:</label>
-        <input type="email" name="mail" required />
+        <label for="mail">Email: </label>
+        <input type="email" name="mail" id="mail" maxlength="40" size="40" required />
       </div>
       <div class="field">
-        <label for="phone">Telefoon:</label>
-        <input type="text" name="phone" />
+        <label for="phone">Telefoon: </label>
+        <input type="text" name="phone" id="phone" size="15" maxlength="15" placeholder="vb. 0498137260" />
       </div>
       <div class="field">
-        <label for="msg">Bijkomende informatie:</label>
-        <textarea name="msg"></textarea>
+        <label for="msg">Stel je vraag: </label>
+        <textarea name="msg" id="msg"></textarea>
       </div>
       <div class="button">
-        <button>Verzenden</button>
+        <button>Vraag informatie</button>
       </div>
     </fieldset>
     </form>

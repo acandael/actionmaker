@@ -21,25 +21,25 @@ description: "Aan de hand van tips die verstopt zitten in de stad moeten 7 monum
     <form name="info-stadsspel" action="/bedankt.html">
       <fieldset>
         <h2>Vraag meer info over het stadsspel:</h2>
-      <div class="field">
-        <label for="name">Naam:</label>
-        <input type="text" name="name" autofocus required />
-      </div>
-      <div class="field">
-        <label for="mail">Email:</label>
-        <input type="email" name="mail" required />
-      </div>
-      <div class="field">
-        <label for="phone">Telefoon:</label>
-        <input type="text" name="phone" />
-      </div>
-      <div class="field">
-        <label for="msg">Bijkomende informatie:</label>
-        <textarea name="msg"></textarea>
-      </div>
-      <div class="button">
-        <button>Verzenden</button>
-      </div>
+        <div class="field">
+          <label for="name">Naam: </label>
+          <input type="text" name="name" id="name" maxlength="40" size="40" required autofocus />
+        </div>
+        <div class="field">
+          <label for="mail">Email: </label>
+          <input type="email" name="mail" id="mail" maxlength="40" size="40" required />
+        </div>
+        <div class="field">
+          <label for="phone">Telefoon: </label>
+          <input type="text" name="phone" id="phone" size="15" maxlength="15" placeholder="vb. 0498137260" />
+        </div>
+        <div class="field">
+          <label for="msg">Stel je vraag: </label>
+          <textarea name="msg" id="msg"></textarea>
+        </div>
+        <div class="button">
+          <button>Vraag informatie</button>
+        </div>
     </fieldset>
     </form>
   </section>

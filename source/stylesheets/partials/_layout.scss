@@ -103,6 +103,7 @@ article {
     }
 
     input#mail, input#name {
+      width: 100%;
       @include media($medium-screen) {
         width: 75%;
       }

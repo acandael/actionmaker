@@ -60,6 +60,11 @@ article {
     margin-bottom: em(24);
   }
 
+  //sections
+  section {
+    margin: em(20);
+  }
+
   section.bodytext {
     @include media($medium-screen) {
       @include span-columns(6);

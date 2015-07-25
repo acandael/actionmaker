@@ -61,9 +61,6 @@ article {
   }
 
   //sections
-  section {
-    margin: em(20);
-  }
 
   section.bodytext {
     @include media($medium-screen) {
@@ -103,6 +100,12 @@ article {
       }
       float: left;
       width: em(105);
+    }
+
+    input#mail, input#name {
+      @include media($medium-screen) {
+        width: 75%;
+      }
     }
 
     textarea {

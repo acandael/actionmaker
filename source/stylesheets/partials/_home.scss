@@ -24,10 +24,9 @@
     @include media($large-screen){
       font-size: em(24);
     }
-    font-size: $base-font-size * 1;
+    font-size: $base-font-size * 1.6;
     margin-bottom: em(36);
     line-height: 1.6em;
-    letter-spacing: .07em;
   }
 }
 

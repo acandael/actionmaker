@@ -25,6 +25,9 @@ a {
   &:hover {
     color: $action-color;
   }
+  &:visited {
+    color: $action-color;
+  }
 }
 
 a#js-mobile-menu{

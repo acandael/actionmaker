@@ -23,6 +23,9 @@
       &:hover {
       opacity: .5;
       }
+      &:visited {
+        color: $action-color; 
+      }
     }
   }
 }

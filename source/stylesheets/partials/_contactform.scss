@@ -1,0 +1,41 @@
+  section.contactform {
+    @include media($medium-screen) {
+      @include span-columns(6);
+      @include omega();
+      float: left;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: em(36);
+      font-size: $base-font-size * 1.2;
+    }
+
+    button {
+      @include media($medium-screen) {
+        float: right;
+      }
+      margin-top: em(16);
+    }
+    
+    label {
+      margin-right: em(5);
+      @include media($medium-screen){
+        text-align: right;
+      }
+      float: left;
+      width: em(105);
+    }
+
+    input#mail, input#name {
+      width: 100%;
+      @include media($medium-screen) {
+        width: 75%;
+      }
+    }
+
+    textarea {
+      display: block;
+      width: 100%;
+    }
+  }

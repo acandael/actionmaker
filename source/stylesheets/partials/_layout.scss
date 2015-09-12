@@ -34,6 +34,11 @@ a#js-mobile-menu{
   color: #aba7a7;
 }
 
+i {
+  margin-right: em(8);
+  color: $action-color;
+}
+
 .customers, .gallery, .about, .team, .activity {
   @include outer-container;
 }
@@ -42,10 +47,6 @@ a#js-mobile-menu{
 
 article {
 
-  .activity {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
 
   .banner {
     margin-top: em(24);
@@ -65,10 +66,14 @@ article {
 
   //sections
 
+  section {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
   section.bodytext {
     @include media($medium-screen) {
       @include span-columns(6);
-      padding-right: em(16);
     }
 
     ul {

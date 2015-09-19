@@ -40,6 +40,16 @@
     font-weight: 700;
   }
 
+  .tagline {
+    display: none;
+    @include media($large-screen) {
+      display: inline;
+      color: #aba7a7;
+      font-size: $base-font-size * 1;
+      line-height: 4.5em;
+    }
+  }
+
   nav {
     float: none;
 

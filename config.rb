@@ -59,6 +59,7 @@ activate :search_engine_sitemap
 
 # Build-specific configuration
 configure :build do
+  activate :gzip
   # For example, change the Compass output style for deployment
   activate :minify_css
 

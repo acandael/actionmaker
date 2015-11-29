@@ -1,0 +1,24 @@
+---
+title: ActionMaker | Revanche
+description: Reclame filmpje met schermers
+---
+<article>
+  <h1>Revanche</h1>
+  <p class="tagline">Reclame filmpje met schermers</p>
+  <div class="video">
+    <video controls="controls">
+      <source src="media/revanche.mp4" type="video/mp4">
+    </video>
+    
+  </div>
+</article>
+<script>
+  $('video').mediaelementplayer({
+    success: function(player, node) {
+      $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+    },
+    startLanguage: 'en',
+    translationSelector: true
+  });
+</script>
+

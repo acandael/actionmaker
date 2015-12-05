@@ -1,0 +1,7 @@
+article#video {
+  margin-bottom: em(54);
+}
+section.video {
+  @include outer-container;
+text-align: center;
+}

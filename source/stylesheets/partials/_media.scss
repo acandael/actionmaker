@@ -1,0 +1,10 @@
+article.media {
+  @include outer-container;
+  margin-bottom: em(54);
+}
+section.videos {
+  li {
+    @include span-columns(4);
+    @include omega(3n);
+  }
+}

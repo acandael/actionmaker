@@ -11,10 +11,16 @@ description: "Reclame filmpje met schermers"
     <video controls="controls" id="player1" preload="none">
       <source type="video/youtube" src="https://youtu.be/kfqp8p8Q4tE" />
       <source type="video/youtube" src="https://youtu.be/w5K1pq15V_o" />
+      <object width="320" height="240" type="application/x-shockwave-flash" data="flashmediaelement.swf">
+        <param name="movie" value="flashmediaelement.swf" />
+        <param name="flashvars" value="controls=true&file=revanche.mp4" />
+        <!-- Image as a last resort -->
+        <img src="myvideo.jpg" width="320" height="240" title="No video playback capabilities" />
+    </object>
     </video>
   </section>
 </article>
 <script>
 // using jQuery
-$('video').mediaelementplayer(/* Options */);
+$('video').mediaelementplayer();
 </script>

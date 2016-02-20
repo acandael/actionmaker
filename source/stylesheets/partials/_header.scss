@@ -61,6 +61,7 @@
     }
   }
 
+
   ul.navigation-menu {
     clear: both;
     display: none;
@@ -88,6 +89,16 @@
     background: black;
     line-height: 3em;
     padding-right: 2em;
+    
+      i.social {
+        font-size: 1.5em;
+        margin-left: 2em;
+        color: #aba7a7;
+        
+        &:hover {
+          color: $action-color;
+        }
+      }
 
     @include media ($large-screen) {
       line-height: inherit;

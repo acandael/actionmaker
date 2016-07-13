@@ -6,3 +6,9 @@ article#video {
     @include shift(3);
   }
 }
+
+article.media {
+  li {
+    margin-bottom: 2em;
+  }
+}

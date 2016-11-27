@@ -16,6 +16,6 @@ galleries:
 
 For the styling and layout I used a couple of Sass libraries:
 
-* [Bourbon](http://bourbon.io/)(a Sass mixin library)
-* [Neat](http://neat.bourbon.io/)(a semantic grid framework)
+* [Bourbon](http://bourbon.io/) (a Sass mixin library)
+* [Neat](http://neat.bourbon.io/) (a semantic grid framework)
 

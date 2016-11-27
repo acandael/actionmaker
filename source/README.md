@@ -6,7 +6,7 @@ Techniques I used are:
 * Sprites
 * the srcset attribute
 
-For details about the latest technique, I refer to my blogpost ont the  [srcset attribute}(https://www.anthonycandaele.com/blog/2015/05/25/responsive-images-using-srcset-and-jquery)
+For details about the latest technique, I refer to my blogpost on the  [srcset attribute}(https://www.anthonycandaele.com/blog/2015/05/25/responsive-images-using-srcset-and-jquery)
 
 I also used a couple of jQuery libraries for responsive sliders and image
 galleries:
